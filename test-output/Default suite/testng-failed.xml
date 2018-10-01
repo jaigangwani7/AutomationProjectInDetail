@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.AutomationProject.testScripts.TillProceedPage">
+      <class name="com.AutomationProject.testScripts.LoginTest">
         <methods>
           <include name="testValidLogin"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- com.AutomationProject.testScripts.TillProceedPage -->
+      </class> <!-- com.AutomationProject.testScripts.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.AutomationProject.library.Constant;
-import com.AutomationProject.library.ReportFunction;
-import com.aventstack.extentreports.Status;
+
+
 
 public class LoginPage 
 {
@@ -40,26 +40,26 @@ public class LoginPage
 	public void clickOnSignInLink(){
 		
 		
-		ReportFunction.logger.log(Status.INFO, "SignIn button clicked.");
+	
 		signin.click();
 	}
 	
 	public void enterEmailAddress(String emailAddress){
 		
 		
-		ReportFunction.logger.log(Status.INFO,"emailAddress= " +Constant.userName);
+		
 		this.emailAddress.sendKeys(emailAddress);
 	}
 	
 	public void enterPassword(String password){
 		
 	
-		ReportFunction.logger.log(Status.INFO, "Password=  "+Constant.passWord);
+
 		this.password.sendKeys(password);
 	}
 	
 	public void clickOnSubmitButton(){
-		ReportFunction.logger.log(Status.INFO, "Submit button clicked.");	
+
 		submitLogin.click();
 		
 	}
@@ -77,13 +77,13 @@ public class LoginPage
 	{
 		String email = System.currentTimeMillis()+"@gmail.com";
 		registrationEmailAddress.sendKeys(email);
-		ReportFunction.logger.log(Status.INFO,"registrationEmailAddress= " +email);
+
 	}
 	
 	public void clickOnCreateAnAccount()
 	{
 		createAnAccount.click();	
-		ReportFunction.logger.log(Status.INFO, "createAnAccount button clicked.");
+
 	}
 	
 }

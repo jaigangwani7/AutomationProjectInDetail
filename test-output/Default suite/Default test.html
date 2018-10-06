@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 01 21:37:46 IST 2018</td>
+<td>Started on:</td><td>Sat Oct 06 15:32:36 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29346 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9023 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.AutomationProject.testScripts.LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: com.AutomationProject.testScripts.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.AutomationProject.pages.LoginPage.clickOnSignInLink(LoginPage.java:43)
-	at com.AutomationProject.pages.LoginPage.loginToApplication(LoginPage.java:71)
-	at com.AutomationProject.testScripts.LoginTest.testValidLogin(LoginTest.java:29)
+<td title='com.AutomationProjectInDetail.testScript.Test1.testLogin1()'><b>testLogin1</b><br>Test class: com.AutomationProjectInDetail.testScript.Test1</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.AutomationProjectInDetail.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:31)
+	at com.AutomationProjectInDetail.testScript.Test1.testLogin1(Test1.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -105,11 +108,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace8607197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace8607197'><pre>java.lang.NullPointerException
-	at com.AutomationProject.pages.LoginPage.clickOnSignInLink(LoginPage.java:43)
-	at com.AutomationProject.pages.LoginPage.loginToApplication(LoginPage.java:71)
-	at com.AutomationProject.testScripts.LoginTest.testValidLogin(LoginTest.java:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace8911084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8911084'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.AutomationProjectInDetail.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:31)
+	at com.AutomationProjectInDetail.testScript.Test1.testLogin1(Test1.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -137,7 +143,20 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.AutomationProject.testScripts.LoginTest@2f8f11</td></tr>
+<td>com.AutomationProjectInDetail.testScript.Test1@38ae61</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.AutomationProjectInDetail.testScript.Test1.testLogin()'><b>testLogin</b><br>Test class: com.AutomationProjectInDetail.testScript.Test1</td>
+<td></td>
+<td>0</td>
+<td>com.AutomationProjectInDetail.testScript.Test1@38ae61</td></tr>
 </table><p>
 </body>
 </html>

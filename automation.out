@@ -1,3 +1,52 @@
 2018-10-02 13:10:867 INFO  LoggerHelper:23 - logger is configured
 2018-10-02 13:10:874 INFO  LoggerHelper:24 - logger is configured
 2018-10-02 13:10:875 INFO  LoggerHelper:25 - logger is configured
+2018-10-06 15:10:63 INFO  TestBase:111 - Initialize Web driver: 7404502
+2018-10-06 15:10:76 INFO  WaitHelper:29 - WaitHelper object created..
+2018-10-06 15:10:77 INFO  WaitHelper:39 - Implicit Wait has been set to: 120
+2018-10-06 15:10:98 INFO  WaitHelper:142 - waiting for page to load for : SECONDS seconds
+2018-10-06 15:10:106 INFO  WaitHelper:144 - page is loaded
+2018-10-06 15:10:416 INFO  TestBase:61 - **************testLoginToApplicationStarted***************
+2018-10-06 15:10:981 INFO  WaitHelper:29 - WaitHelper object created..
+2018-10-06 15:10:50 INFO  WaitHelper:154 - waiting for :[[ChromeDriver: chrome on XP (8253c6189901ae7c4a5a5933afef13ff)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] for :200 seconds
+2018-10-06 15:10:254 INFO  WaitHelper:157 - element is visible now
+2018-10-06 15:10:255 INFO  TestBase:144 - capturing ui navigation screen...
+2018-10-06 15:10:620 INFO  LoginPage:63 - clicked on sign in link...
+2018-10-06 15:10:493 INFO  LoginPage:69 - entering email address....1529686406836@gmail.com
+2018-10-06 15:10:155 INFO  LoginPage:75 - entering password....password
+2018-10-06 15:10:542 INFO  LoginPage:81 - clicking on submit button...
+2018-10-06 15:10:437 INFO  VerificationHelper:23 - element is Displayed..Welcome to your account. Here you can manage all of your personal information and orders.
+2018-10-06 15:10:460 INFO  TestBase:79 - **************testLoginToApplicationFinished***************
+2018-10-06 15:10:421 INFO  TestBase:111 - Initialize Web driver: 7404502
+2018-10-06 15:10:436 INFO  WaitHelper:29 - WaitHelper object created..
+2018-10-06 15:10:436 INFO  WaitHelper:39 - Implicit Wait has been set to: 120
+2018-10-06 15:10:467 INFO  WaitHelper:142 - waiting for page to load for : SECONDS seconds
+2018-10-06 15:10:483 INFO  WaitHelper:144 - page is loaded
+2018-10-06 15:10:751 INFO  TestBase:61 - **************testLoginStarted***************
+2018-10-06 15:10:800 INFO  AssertionHelper:20 - making script PASS..
+2018-10-06 15:10:815 INFO  TestBase:79 - **************testLoginFinished***************
+2018-10-06 15:10:707 INFO  TestBase:61 - **************testLogin1Started***************
+2018-10-06 15:10:707 INFO  AssertionHelper:30 - making script FAIL..
+2018-10-06 15:10:300 INFO  TestBase:79 - **************testLogin1Finished***************
+2018-10-06 15:10:882 INFO  TestBase:111 - Initialize Web driver: 7404502
+2018-10-06 15:10:898 INFO  WaitHelper:29 - WaitHelper object created..
+2018-10-06 15:10:898 INFO  WaitHelper:39 - Implicit Wait has been set to: 120
+2018-10-06 15:10:913 INFO  WaitHelper:142 - waiting for page to load for : SECONDS seconds
+2018-10-06 15:10:929 INFO  WaitHelper:144 - page is loaded
+2018-10-06 15:10:182 INFO  TestBase:61 - **************testLoginStarted***************
+2018-10-06 15:10:197 INFO  AssertionHelper:20 - making script PASS..
+2018-10-06 15:10:213 INFO  TestBase:79 - **************testLoginFinished***************
+2018-10-06 15:10:87 INFO  TestBase:61 - **************testLogin1Started***************
+2018-10-06 15:10:87 INFO  AssertionHelper:30 - making script FAIL..
+2018-10-06 15:10:727 INFO  TestBase:79 - **************testLogin1Finished***************
+2018-10-06 15:10:362 INFO  TestBase:111 - Initialize Web driver: 7404502
+2018-10-06 15:10:377 INFO  WaitHelper:29 - WaitHelper object created..
+2018-10-06 15:10:393 INFO  WaitHelper:39 - Implicit Wait has been set to: 120
+2018-10-06 15:10:409 INFO  WaitHelper:142 - waiting for page to load for : SECONDS seconds
+2018-10-06 15:10:424 INFO  WaitHelper:144 - page is loaded
+2018-10-06 15:10:656 INFO  TestBase:61 - **************testLoginStarted***************
+2018-10-06 15:10:687 INFO  AssertionHelper:20 - making script PASS..
+2018-10-06 15:10:703 INFO  TestBase:79 - **************testLoginFinished***************
+2018-10-06 15:10:674 INFO  TestBase:61 - **************testLogin1Started***************
+2018-10-06 15:10:690 INFO  AssertionHelper:30 - making script FAIL..
+2018-10-06 15:10:317 INFO  TestBase:79 - **************testLogin1Finished***************

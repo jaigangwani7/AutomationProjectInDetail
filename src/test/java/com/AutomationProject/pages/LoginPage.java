@@ -11,7 +11,7 @@ import com.AutomationProject.library.Constant;
 public class LoginPage 
 {
 	
-	
+	/*
 	@FindBy(xpath="//*[contains(@title,'Log in to your customer account')]")
 	WebElement signin;
 	
@@ -85,5 +85,5 @@ public class LoginPage
 		createAnAccount.click();	
 
 	}
-	
+	*/
 }

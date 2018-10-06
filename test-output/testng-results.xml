@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[captureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\workspace\AutomationProjectInDetail\src\main\resources\screenShots\testLogin1_06_10_2018_03_32_43.png'><img src='C:\workspace\AutomationProjectInDetail\src\main\resources\screenShots\testLogin1_06_10_2018_03_32_43.png'height='100' width='100'/></a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29346" started-at="2018-10-01T16:07:46Z" finished-at="2018-10-01T16:08:15Z">
+  <suite name="Default suite" duration-ms="9023" started-at="2018-10-06T10:02:36Z" finished-at="2018-10-06T10:02:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29346" started-at="2018-10-01T16:07:46Z" finished-at="2018-10-01T16:08:15Z">
-      <class name="com.AutomationProject.testScripts.LoginTest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.AutomationProject.testScripts.LoginTest@2f8f11]" name="preCondition" is-config="true" duration-ms="29065" started-at="2018-10-01T21:37:46Z" finished-at="2018-10-01T21:38:15Z">
+    <test name="Default test" duration-ms="9023" started-at="2018-10-06T10:02:36Z" finished-at="2018-10-06T10:02:45Z">
+      <class name="com.AutomationProjectInDetail.testScript.Test1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="beforeSuite" is-config="true" duration-ms="343" started-at="2018-10-06T15:32:35Z" finished-at="2018-10-06T15:32:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="FAIL" signature="testValidLogin()[pri:0, instance:com.AutomationProject.testScripts.LoginTest@2f8f11]" name="testValidLogin" duration-ms="173" started-at="2018-10-01T21:38:15Z" finished-at="2018-10-01T21:38:15Z">
-          <exception class="java.lang.NullPointerException">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="beforeTest" is-config="true" duration-ms="6327" started-at="2018-10-06T15:32:36Z" finished-at="2018-10-06T15:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2018-10-06T15:32:42Z" finished-at="2018-10-06T15:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AutomationProjectInDetail.testScript.Test1.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="testLogin" duration-ms="15" started-at="2018-10-06T15:32:42Z" finished-at="2018-10-06T15:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="afterMethod" is-config="true" duration-ms="971" started-at="2018-10-06T15:32:42Z" finished-at="2018-10-06T15:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test1.testLogin()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="testLogin1()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="testLogin1" duration-ms="16" started-at="2018-10-06T15:32:43Z" finished-at="2018-10-06T15:32:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at com.AutomationProject.pages.LoginPage.clickOnSignInLink(LoginPage.java:43)
-	at com.AutomationProject.pages.LoginPage.loginToApplication(LoginPage.java:71)
-	at com.AutomationProject.testScripts.LoginTest.testValidLogin(LoginTest.java:29)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.AutomationProjectInDetail.helper.assertion.AssertionHelper.markFail(AssertionHelper.java:31)
+	at com.AutomationProjectInDetail.testScript.Test1.testLogin1(Test1.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -45,11 +87,43 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-      </class> <!-- com.AutomationProject.testScripts.LoginTest -->
+        </test-method> <!-- testLogin1 -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-06T15:32:43Z" finished-at="2018-10-06T15:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.AutomationProjectInDetail.testScript.Test1.testLogin1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="afterMethod" is-config="true" duration-ms="783" started-at="2018-10-06T15:32:43Z" finished-at="2018-10-06T15:32:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin1 status=FAILURE method=Test1.testLogin1()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[captureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\workspace\AutomationProjectInDetail\src\main\resources\screenShots\testLogin1_06_10_2018_03_32_43.png'><img src='C:\workspace\AutomationProjectInDetail\src\main\resources\screenShots\testLogin1_06_10_2018_03_32_43.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.AutomationProjectInDetail.testScript.Test1@38ae61]" name="afterTest" is-config="true" duration-ms="786" started-at="2018-10-06T15:32:44Z" finished-at="2018-10-06T15:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.AutomationProjectInDetail.testScript.Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

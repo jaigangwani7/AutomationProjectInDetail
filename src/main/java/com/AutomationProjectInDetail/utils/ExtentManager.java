@@ -1,6 +1,7 @@
-package com.AutomationProject.utils;
+package com.AutomationProjectInDetail.utils;
 
-import com.AutomationProject.helper.resource.ResourceHelper;
+
+import com.AutomationProjectInDetail.helper.resource.ResourceHelper;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
